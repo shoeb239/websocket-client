@@ -28,7 +28,7 @@ class anotherClient extends Command
     public function handle()
     {
         // Your WebSocket server URL including API key
-        $url = env('WEBSOCKET_URL', 'wss://s12218.nyc1.piesocket.com/v3/1?api_key=3hMVK8wsPgzHX9FxQ6VkJgw1g3mIt1UFhuwwhTJ7');
+        $url = env('WEBSOCKET_URL', 'wss://s12218.nyc1.piesocket.com/v3/1?api_key=3hMVK8wsPgzHX9FxQ6VkJgw1g3mIt1UFhuwwhTJ7&notify_self=1');
 
         while (true) {
             try {
